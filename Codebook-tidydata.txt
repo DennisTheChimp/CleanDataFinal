@@ -1,0 +1,17 @@
+The file tinydata.txt is a summary of a research project by Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto at the University of Genoa.
+More information about the study and the resulting datafiles can be found in ./UCI HAR Dataset/README.txt and ./UCI HAR Dataset/features_info.txt
+
+The file tinydata.txt combines the measurement results of two groups in the study, the training and test group, and adds data for subject and activity to that.
+
+-------------------------------------------------------------
+tinydata.txt
+-------------------------------------------------------------
+Factor variables:
+	activity - type of activity carried out during the measurements
+	subject - id number (1-30) of each participant
+
+Measurement variables
+	- Selected from the original data were only those variables that represent a calculated mean or standard deviation of a measurement.
+	- In the dataset you find the mean of these values, averaged by subject and activity
+	- A complete description of all the measurement variables can be found in ./UCI HAR Dataset/features_info.txt
+	- The names of the variables were not changed, so the mean of tBodyAcc-mean()-X is still called tBodyAcc-mean()-X
